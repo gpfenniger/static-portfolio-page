@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Griffin Pfenniger's Portfolio</title>
+		<script src="./code.js"></script>
+		<link rel="stylesheet" href="layout.css">
+	</head>
+	<body onload="load_text('about_me')">
+		<div id="wrapper">
+		
+			<div class="container column">
+				<div id="sideBar" class="white">
+					<h1>Griffin Pfenniger</h1>
+					<button class="nav-container" onclick="load_text('about_me')">
+						<p class="nav-item">About Me</p>
+					</button>
+					<button class="nav-container" onclick="load_text('my_projects')">
+						<p class="nav-item">My Projects</p>
+					</button>
+					<button class="nav-container" onclick="load_text('my_goals')">
+						<p class="nav-item">My Goals</p>
+					</button>
+					<div class="container column">
+						<a href="https://github.com/gpfenniger" target="_blank">
+							<img src="./imgs/git-icon.png" alt="github logo"></img>
+						</a>
+						<a href="https://www.linkedin.com/in/griffin-pfenniger-72ab82160/" target="_blank">
+							<img src="./imgs/linkedin-icon.png" alt="linkedin logo"></img>
+						</a>
+						<a href="mailto:pfenniger.griffin@gmail.com" target="_blank">
+							<img src="./imgs/mail-icon.png" alt="mail icon"></img>
+						</a>
+					</div>
+				</div>
+				
+				<div class="body lightest">
+					<div class="header light">
+						<h1 id="body_title"># about_me</h1>
+					</div>
+					<div id="content" class="container">
+						
+					</div>
+				</div>
+			</div>
+			
+			
+		</div>
+	</body>
+</html>
